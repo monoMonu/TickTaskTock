@@ -97,7 +97,7 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
 function showNotification() {
   chrome.notifications.create({
     type: 'basic',
-    iconUrl: 'assets/ext-icon.png',
+    iconUrl: 'assets/notificationIcon.png',
     title: 'Time for a break!',
     message: 'Your productivity session is complete. Take a short break!',
     priority: 2,
@@ -122,7 +122,7 @@ function updateIcon() {
     context.fill();
 
     context.fillStyle = '#FFFFFF';
-    context.font = 'bold 16px Arial';
+    context.font = 'bold 18px Arial';
     context.textAlign = 'center';
     context.textBaseline = 'middle';
     context.fillText(timeString, 24, 24); 

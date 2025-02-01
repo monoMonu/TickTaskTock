@@ -1,5 +1,5 @@
 {
-  "name": "Productivity Timer",
+  "name": "Tick Task Tock",
   "version": "1.0.0",
   "description": "Stay focused and boost productivity with customizable work and break timers.",
   "permissions": ["storage", "tabs", "alarms", "notifications", "scripting"],
@@ -13,7 +13,7 @@
     "64": "assets/icon64.png"
   },
   "action": {
-    "default_title": "Productivity Timer",
+    "default_title": "Tick Task Tock",
     "default_popup": "popup.html"
   },
   "manifest_version": 3
