@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
+html {
+  background: transparent;
+}
+
+body {
+  width: 320px;
+  padding: 20px;
+  background-color: #22222b;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timer-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background-color: #fafafa;
+  transition: border 0.3s ease;
+}
+
+.timer-input:focus {
+  outline: none;
+  border-color: #34d38c;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.start {
+  background-color: #34d38c;
+  color: white;
+}
+
+.stop {
+  background-color: #f44336;
+  color: white;
+}
+
+.reset {
+  background-color: #484848;
+  color: white;
+}
+
+.save {
+  background-color: #2196F3;
+  color: white;
+}
